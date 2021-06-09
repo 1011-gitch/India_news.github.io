@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  min-height: 100px;
+}
+.nav-link {
+  font-size: 1.4rem;
+}
+#main {
+  min-height: 700px;
+  background: whitesmoke;
+}
+.card img {
+  background: url("scenary.jpg");
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+.card-footer {
+  font-weight: bold;
+}
+.card-header {
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  .card img {
+    height: 15vw;
+  }
+}
